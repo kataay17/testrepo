@@ -1,0 +1,79 @@
+/* Home 
+	border: black 1px solid;
+
+	COLORS: 
+	f9a11b (orange)
+	00847f (dark teal)
+	3fc1c0 (light teal)
+	7cc24d (green)
+*/
+
+html{
+	
+}
+body{
+	margin: 0px;
+	
+}
+
+.wrap{
+	border: solid 1px black;
+	height: 100vh;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.hannah{
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+}
+
+.top-bar{
+	background-color: (255, 255, 255, .8);
+	z-index:2;
+	width: 100%;
+	height: 50px;
+	border: black 1px solid;
+	position: absolute;
+
+}
+
+.logo{
+	z-index: 3;
+	position: absolute;
+	width: 200px;
+	padding: 30px;
+
+}
+
+nav{
+	z-index: 3;
+	position: absolute;
+	padding-right: 0px;
+	right:30px;
+	padding-top: 20px;
+
+
+}
+
+nav ul{
+	list-style: none;
+		margin-left: 0px;
+
+}
+
+nav ul li{
+	font-family: helvetica, sans-serif;
+	color:#00847f;
+	float: left;
+	padding: 20px;
+	cursor:pointer;
+}
+
+nav ul li:hover{
+	color: white;
+}
+
+
+
