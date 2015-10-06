@@ -81,10 +81,10 @@ nav ul li:hover{
 }
 
 .wrap h1{
-	font-family: courier;
+	font-family: helvetica;
 	color: white;
 	font-weight: lighter;
-	font-size: 80px;
+	font-size: 90px;
 	margin-bottom: 10px;
 	letter-spacing: -2px;
 }
@@ -133,3 +133,145 @@ footer p{
 	padding: 30px;
 	margin: 0px;
 }
+
+/* About */
+
+
+.aboutBody{
+	background-color: #e3e1e1;
+	margin: 0px;
+}
+
+.xxx{
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	position: absolute;
+}
+
+
+.aboutWrap{
+	width:960px;
+	margin:0 auto;
+	height:900px;
+	background:white;
+}
+
+h3{
+	font-family: helvetica;
+	color: #00847f;
+	font-weight: lighter;
+	font-size: 55px;
+	margin-top: 420px;
+	z-index: 2;
+	position: absolute;
+	padding-left: 100px;
+}
+
+.aboutWrap .column1{
+	width: 250px;
+	height:100vh;
+	position:absolute;
+	clear:both;
+		border: black 1px solid;
+		padding-left: 200px;
+		padding:100px;
+
+
+
+}
+
+.aboutWrap .column1 img{
+	float:left;
+	width:300px;
+	height: 200px;
+	padding: 20px;
+	margin-top:400px;
+		border: black 1px solid;
+
+
+
+}
+
+.aboutWrap .column1 p{
+	position: absolute;
+	margin: 0px;
+	font-family: helvetica;
+		border: black 1px solid;
+	bottom: 0px;
+	padding-bottom: 100px;
+
+
+}
+
+.aboutWrap .column2{
+	width:250px;
+	height:100vh;
+	float:left;
+	position: absolute;
+	clear:both;
+	border: black 1px solid;
+	right:0px;
+	margin-right: 100px;
+	padding: 100px;
+	padding-top: 100px;
+	padding-left: 75px;
+
+
+}
+
+	/*width: 200px;
+	height:100vh;
+	position:absolute;
+	clear:both;
+		border: black 1px solid;
+		padding-left: 200px;
+		padding:100px;*/
+
+.aboutWrap .column2 img{
+	float:left;
+	width:300px;
+	height: 200px;
+	padding:20px;
+	margin-top:400px;
+		border: black 1px solid;
+}
+
+.aboutWrap .column2 p{
+	bottom: 0px;
+	margin: 0px;
+	position: absolute;
+}
+
+.aboutFooter{
+	background-color: #3fc1c0;
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	z-index: 1;
+}
+
+
+.aboutFooter .twitter{
+	
+	float: right;
+	padding-right: 30px;
+	padding-top: 25px;
+
+
+}
+
+.aboutFooter .facebook{
+	float:right;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+.aboutFooter p{
+	color:white;
+	float: left;
+	font-family: helvetica;
+	padding: 30px;
+	margin: 0px;
+}
+
