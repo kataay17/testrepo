@@ -96,6 +96,7 @@ nav ul li:hover{
 	font-style: italic;
 	font-size: 40px;
 	margin-top: 15px;
+	text-transform: none;
 }
 
 
@@ -157,7 +158,7 @@ footer p{
 .aboutWrap{
 	width:960px;
 	margin:0 auto;
-	height:1100px;
+	height:1300px;
 	background:white;
 }
 
@@ -202,6 +203,7 @@ h3{
 	font-weight: lighter;
 	z-index: 1;
 	line-height: 15pt;
+	width: 300px;
 
 }
 
@@ -239,14 +241,15 @@ h3{
 	font-weight: lighter;
 	z-index: 1;
 	line-height: 15pt;
+	width: 300px;
 
 }
 
 h4{
 	font-family: helvetica;
 	text-transform: uppercase;
-	color:#00847f;
-	font-size: 20px;
+	color:#f9a11b;
+	font-size: 18px;
 	position: static;
 	line-height: 10px;
 }
@@ -282,4 +285,72 @@ h4{
 	padding: 30px;
 	margin: 0px;
 }
+
+/* Print Design */
+
+h2{
+	font-family: helvetica;
+	text-transform: uppercase;
+	color:#f9a11b;
+	font-size: 18px;
+	position: static;
+	line-height: 10px;
+
+}
+
+.print{
+	width:20%;
+	padding-left: 100px;
+	float:left;
+	padding-right: 0px;
+	margin-right: 75px;
+	margin-bottom: 20px;
+	margin-top: 550px;
+}
+
+
+
+.web{
+	float:left;
+	width: 20%;
+margin-right: 75px;
+	margin-top: 550px;
+
+}
+
+.photography{
+	float:left;
+	width: 20%;
+	margin-top: 550px;
+
+
+}
+
+.retouching{
+	position:absolute;
+	width:20%;
+	margin-top: 825px;
+	padding-right: 0px;
+	margin-right: 75px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+
+}
+
+.illustration{
+	float:left;
+	padding-left: 365px;
+	margin-top: 825px;
+	position: absolute;
+
+}
+
+.packaging{
+	float:left;
+	width: 20%;
+	padding-top: 10px;
+	padding-left: 635px;
+
+}
+
 
